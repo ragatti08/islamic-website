@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+  --base-color: #e9967a;
+  --text-color: #080808;
+  --primary-color: #ffc06e;
+  --secondary-color: #1e90ff;
+  --color-1: #ffffff;
+  --color-2: #1e90ff;
+  --color-3: #1e90ff;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html { 
+    font-family: Anoton sans-serif;
+    color: var(--text-color);
+
+}
+
+body    {
+    padding: 1em;
+    background-color: var(--base-color);
+
+}
+
+h1, h2, h3 {
+    font-family: Anoton sans-serif;
+
+}
+
+nav {
+    margin: 1em auto 3;
+    width: min(1000, 100%);
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 1em;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family:  Anoton sans-serif;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color)
+    
+}
+
+a {
+    padding: 3em;
+}
+
+p {
+    font-weight: bold;
+    font-family: Times, serif;
+}
+
